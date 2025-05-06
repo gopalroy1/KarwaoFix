@@ -7,7 +7,7 @@ export const COMPANY_TAGLINE = "Ghar Ka Sab Kuch — KarwaoFix!"
 // Contact Information
 export const PHONE_NUMBER = "+91 1234567890"
 export const WHATSAPP_NUMBER = "+91 1234567890"
-export const EMAIL = "contact@KarwaoFix.com"
+export const EMAIL = "contact@KarwaoFixx.com"
 export const SUPPORT_EMAIL = "support@KarwaoFix.com"
 
 // Social Media Links
