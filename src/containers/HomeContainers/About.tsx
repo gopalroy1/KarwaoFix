@@ -49,13 +49,13 @@ export default function About() {
         {/* Service Areas */}
         <div className="bg-gray-50 rounded-2xl p-8 md:p-12 mt-20">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Service Areas in Kolkata</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="space-y-12">
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Currently Serving</h3>
-              <div className="grid grid-cols-2 gap-3">
+              <h3 className="text-xl font-semibold text-gray-900 mb-6">Currently Serving</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {SERVICE_LOCATIONS.PRIMARY.map((location) => (
                   <div key={location} className="flex items-center space-x-2">
-                    <svg className="w-5 h-5 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-5 h-5 text-primary-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span className="text-gray-600">{location}</span>
@@ -64,11 +64,11 @@ export default function About() {
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Coming Soon</h3>
-              <div className="grid grid-cols-2 gap-3">
+              <h3 className="text-xl font-semibold text-gray-900 mb-6">Coming Soon</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {SERVICE_LOCATIONS.UPCOMING.map((location) => (
                   <div key={location} className="flex items-center space-x-2">
-                    <svg className="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <span className="text-gray-500">{location}</span>

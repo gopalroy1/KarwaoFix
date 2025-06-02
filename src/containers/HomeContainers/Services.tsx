@@ -36,9 +36,9 @@ const services = [
     )
   },
   {
-    title: "Air Purifier",
-    value: "air-purifier",
-    description: "Professional installation and maintenance services for air purifiers",
+    title: "Microwave",
+    value: "Microwave",
+    description: "Professional repair and maintenance services for air microwave",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
@@ -50,16 +50,16 @@ const services = [
       </svg>
     )
   },
-  {
-    title: "Water Heater",
-    value: "water-heater",
-    description: "Installation, maintenance, and repair for all types of water heaters",
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-      </svg>
-    )
-  },
+  // {
+  //   title: "Water Heater",
+  //   value: "water-heater",
+  //   description: "Installation, maintenance, and repair for all types of water heaters",
+  //   icon: (
+  //     <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+  //     </svg>
+  //   )
+  // },
   {
     title: "Refrigerator",
     value: "refrigerator",

@@ -5,9 +5,9 @@ export const COMPANY_NAME = "KarwaoFix"
 export const COMPANY_TAGLINE = "Ghar Ka Sab Kuch — KarwaoFix!"
 
 // Contact Information
-export const PHONE_NUMBER = "+91 1234567890"
-export const WHATSAPP_NUMBER = "+91 1234567890"
-export const EMAIL = "contact@KarwaoFixx.com"
+export const PHONE_NUMBER = "+91 9163474403"
+export const WHATSAPP_NUMBER = "+919163474403"
+export const EMAIL = "contact@KarwaoFix.com"
 export const SUPPORT_EMAIL = "support@KarwaoFix.com"
 
 // Social Media Links
@@ -52,7 +52,86 @@ export const SERVICE_LOCATIONS = {
     "Hazra",
     "Bara Bazar",
     "Dhramtala",
-    "Howrah"
+    "Howrah",
+    "Kamalgachi",
+    "Narendrapur",
+    "Garia Station Road",
+    "Patuli",
+    "Santoshpur",
+    "Mukundopur",
+    "Anandapur",
+    "Ruby",
+    "Garfa",
+    "Rajdanga",
+    "Kasba",
+    "Topsia",
+    "Parksircus",
+    "Ballygunge",
+    "Gariahat",
+    "Jodhpur Park",
+    "Gold Green",
+    "Tollygunj",
+    "Bhawanipur",
+    "Lake Garden",
+    "Beltala",
+    "Lansdowne",
+    "Paddapukur",
+    "Saratbose Road",
+    "Taratal",
+    "Joka",
+    "Kudhghat",
+    "Haridevpur",
+    "Kobordanga",
+    "Boral",
+    //
+    "Behala",
+    "Panchasayar",
+    "New Alipore",
+    "Bijoygarh",
+    "Netaji Nagar",
+    "Baishnabghata Patuli Township",
+    "Ashok Nagar",
+    "Mahamayatala",
+    "Bansdroni Udayan Pally",
+    "Buroshibtala",
+    "Taratala Road",
+    "Chak Garia",
+    "Dhakuria",
+    "Sahid Nagar",
+    "Nayabad",
+    "Madurdaha",
+    "Kalitala",
+    "Ajaynagar",
+    "Haltu",
+    "Gangulibagan",
+    "Netaji Colony",
+    "Barisha",
+    "Panchanantala",
+    "Sarsuna",
+    "Silpara",
+    "Manton",
+    "James Long Sarani",
+    "Bakultala",
+    "Mudi Ali",
+    "Batanagar"
   ],
-  UPCOMING: ["New Town", "Rajarhat", "Behala", "Alipore", "Park Street", "Esplanade"]
+  UPCOMING: [
+    "Baruipur",
+    "Canning",
+    "Joynagar",
+    "Diamond Harbour",
+    "Budge Budge",
+    "Kalyani",
+
+    "Ranaghat",
+
+    "Asansol",
+    "Durgapur",
+
+    "Alipurduar",
+    "Siliguri",
+    "Darjeeling",
+    "Kurseong",
+    "Kalimpong"
+  ]
 } as const
